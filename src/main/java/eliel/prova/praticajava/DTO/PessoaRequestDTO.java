@@ -4,7 +4,7 @@ public class PessoaRequestDTO {
 
     private String nome;
     private String cpf;
-    private Integer trabalhoId; // FK para o trabalho
+    private Integer trabalhoId;
 
     public String getNome() {
         return nome;

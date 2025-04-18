@@ -5,7 +5,7 @@ public class PessoaDTO {
     private int id;
     private String nome;
     private String cpf;
-    private String trabalhoNome; // nome do trabalho (opcional)
+    private String trabalhoNome; 
 
     public PessoaDTO(int id, String nome, String cpf, String trabalhoNome) {
         this.id = id;
